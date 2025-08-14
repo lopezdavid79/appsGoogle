@@ -16,6 +16,13 @@
         padding-top: 4rem;
         padding-bottom: 4rem;
       }
+      /* Ensure the modal is above everything */
+      .modal {
+        z-index: 1055;
+      }
+      .modal-body .ratio {
+        height: 70vh; /* Adjust video height */
+      }
     </style>
 </head>
 <body>
@@ -75,8 +82,8 @@
                     <div class="card h-100 text-center shadow-sm">
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 1: Gmail</h3>
-                            <a href="modulos//modulo1_gmail.md" class="btn btn-outline-secondary m-1 disabled" role="button"  aria-label="Ver apuntes del Módulo 1: Gmail" target="_blank">Ver Apuntes</a>
-                            <a href="#" class="btn btn-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver clase grabada del Módulo 1: Gmail">Ver Clase Grabada</a>
+                            <a href="modulos//modulo1_gmail.md" class="btn btn-outline-secondary m-1" role="button"  aria-label="Ver apuntes del Módulo 1: Gmail" target="_blank">Ver Apuntes</a>
+                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo1">Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -84,8 +91,8 @@
                     <div class="card h-100 text-center shadow-sm">
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 2: Google Drive</h3>
-                            <a href="#" target="_blank"  class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 2: Google Drive">Ver Apuntes</a>
-                            <a href="#" class="btn btn-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver clase grabada del Módulo 2: Google Drive">Ver Clase Grabada</a>
+                            <a href="modulos/modulo2_drive.md" target="_blank"  class="btn btn-outline-secondary m-1 disabled" role="button" aria-label="Ver apuntes del Módulo 2: Google Drive">Ver Apuntes</a>
+                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo2" disabled>Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -94,7 +101,7 @@
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 3: Documentos de Google</h3>
                             <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 3: Documentos de Google">Ver Apuntes</a>
-                            <a href="#" class="btn btn-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver clase grabada del Módulo 3: Documentos de Google">Ver Clase Grabada</a>
+                             <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo3" disabled>Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -103,7 +110,7 @@
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 4: Hojas de Cálculo</h3>
                             <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 4: Hojas de Cálculo">Ver Apuntes</a>
-                            <a href="#" class="btn btn-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver clase grabada del Módulo 4: Hojas de Cálculo">Ver Clase Grabada</a>
+                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo4" disabled>Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -112,7 +119,7 @@
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 5: Formularios</h3>
                             <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 5: Formularios">Ver Apuntes</a>
-                            <a href="#" class="btn btn-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver clase grabada del Módulo 5: Formularios">Ver Clase Grabada</a>
+                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo5" disabled>Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -121,7 +128,7 @@
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 6: Google Calendario</h3>
                             <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 6: Google Calendario">Ver Apuntes</a>
-                            <a href="#" class="btn btn-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver clase grabada del Módulo 6: Google Calendario">Ver Clase Grabada</a>
+                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo6" disabled>Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -147,6 +154,44 @@
 
     </main>
 
+    <div class="modal fade" id="modalModulo1" tabindex="-1" aria-labelledby="modalModulo1Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalModulo1Label">Clase Grabada: Módulo 1 - Gmail</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://drive.google.com/file/d/1RWZxWEfMC4HxL0bkjcjbL2-DGpNsvZWu/preview" allow="autoplay"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalModulo2" tabindex="-1" aria-labelledby="modalModulo2Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalModulo2Label">Clase Grabada: Módulo 2 - Google Drive</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/heb-9G-5-78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalModulo3" tabindex="-1" aria-labelledby="modalModulo3Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo3Label">Clase Grabada: Módulo 3 - Documentos de Google</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/L42h_yA29A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
+    <div class="modal fade" id="modalModulo4" tabindex="-1" aria-labelledby="modalModulo4Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo4Label">Clase Grabada: Módulo 4 - Hojas de Cálculo</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/kG23D2-z3_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
+    <div class="modal fade" id="modalModulo5" tabindex="-1" aria-labelledby="modalModulo5Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo5Label">Clase Grabada: Módulo 5 - Formularios</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/5sW2AbYv_lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
+    <div class="modal fade" id="modalModulo6" tabindex="-1" aria-labelledby="modalModulo6Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo6Label">Clase Grabada: Módulo 6 - Google Calendario</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/n32jA3u2a-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
+
+
     <footer class="bg-dark text-white text-center py-3 mt-auto">
         <div class="container">
             <p class="mb-0">&copy; 2025 Programa Ágora Argentina. Todos los derechos reservados.</p>
@@ -154,5 +199,33 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const videoModals = document.querySelectorAll('.modal');
+            videoModals.forEach(modal => {
+                const iframe = modal.querySelector('iframe');
+                const video = modal.querySelector('video');
+
+                // Logic for YouTube iFrames or Google Drive iFrames
+                if (iframe) {
+                    const originalSrc = iframe.getAttribute('src');
+                    modal.addEventListener('hidden.bs.modal', function () {
+                        iframe.setAttribute('src', ''); // Stop video by clearing src
+                    });
+                    modal.addEventListener('shown.bs.modal', function () {
+                        iframe.setAttribute('src', originalSrc); // Restore src when modal is shown
+                    });
+                }
+
+                // Logic for local <video> tag
+                if (video) {
+                     modal.addEventListener('hidden.bs.modal', function () {
+                        video.pause(); // Pause the video when the modal is hidden
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
