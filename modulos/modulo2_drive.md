@@ -60,6 +60,12 @@ Con un archivo o carpeta seleccionado:
 * **Abrir el Menú de Acciones:** Presiona `Alt a` para ver todas las acciones disponibles (Mover a, Añadir a destacados, Descargar, Eliminar...). Navega por este menú con las flechas.
 * **Eliminar:** Selecciona el archivo y presiona la tecla `#` (o `Supr` en algunos teclados).
 
+* **Para ver los detalles acerca de permisos, o quien compartió la carpeta:** presionamos alt + v, luego d ,a continuación con foco desactivado leemos toda la información. Para volver, volvemos a activar el foco y presionamos alt g y luego i  para volver a la lista de carpetas.
+
+* **cambiar el orden:**Lo hacemos presionando la letra: alt + R y se cambia el orden de cómo se ven los archivos, por ejemplo en lugar de a a z, se cambia para que se vean de z a a.
+
+
+
 ### 6. Buscar en Drive de Forma Instantánea
 
 * **Activar la barra de búsqueda:** Presiona la tecla `/` (barra inclinada).
@@ -73,3 +79,6 @@ Para mover uno o más elementos, Google Drive utiliza las funciones "cortar y pe
 * **Navegar por las carpetas:** Se abrirá un panel que muestra la estructura de tus carpetas. Usa las flechas de dirección para navegar.
 * **Entrar en una carpeta:** Para ver el contenido de una carpeta, selecciónala y presiona `Enter`.
 * **Confirmar el movimiento:** Una vez que estés dentro de la carpeta de destino, presiona la combinación de teclas `ctrl v` para pegar.
+
+---
+**Fuente:** [Soporte de Google](https://support.google.com/drive/answer/12169158?hl=en)
