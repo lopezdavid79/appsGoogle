@@ -9,7 +9,7 @@ Al finalizar este módulo, serás capaz de:
 * Utilizar el corrector ortográfico y gramatical.
 * Insertar comentarios y compartir el documento.
 
-> **Importante:** Para que NVDA funcione mejor en Documentos, Hojas de Cálculo y Presentaciones, es muy recomendable activar el "Soporte para lectores de pantalla" de Google. Para hacerlo, una vez dentro de un documento, ve al menú "Herramientas" (`Alt` + `h`), luego a "Configuración de accesibilidad" y marca la casilla "Activar compatibilidad con lector de pantalla".
+> **Importante:** Para que NVDA funcione mejor en Documentos, Hojas de Cálculo y Presentaciones, es muy recomendable activar el "Sorte para lectores de pantalla" de Google. Para hacerlo, una vez dentro de un documento, ve al menú "Herramientas" (`Alt` + `h`), luego a "Configuración de accesibilidad" y marca la casilla "Activar compatibilidad con lector de pantalla".
 
 ---
 
@@ -17,17 +17,40 @@ Al finalizar este módulo, serás capaz de:
 
 ### 1. Crear un nuevo documento
 * **Desde Google Drive:**
-    * **Método con NVDA:** Presiona `B` hasta el botón "Nuevo", pulsa `Enter` y elige "Documentos de Google".
-    * **Atajo Rápido de Google:** Presiona `Alt` + `c` y luego `t`.
+    * Dentro de Google Drive, presiona `alt+n` para abrir el menú "Nuevo".
+    * Baja con la flecha hasta "Documentos de Google" y pulsa `Enter`. Se abrirá un nuevo documento en una nueva pestaña.
 * **Atajo directo en el navegador:** Escribe `doc.new` en la barra de direcciones de Chrome y presiona `Enter`.
 
-### 2. Escribir y dar formato al texto
-Una vez en el documento, puedes empezar a escribir directamente.
+### 2. Entendiendo y Navegando la Interfaz del Editor
+Una vez que creas o abres un documento, te encuentras en la pantalla del editor. Se compone de varias áreas clave:
+* El campo del **Título**: Donde le pones nombre a tu documento.
+* La **Barra de Menús**: (Archivo, Editar, Ver, etc.).
+* La **Barra de Herramientas**: Con botones para acciones rápidas (Negrita, Alinear, etc.).
+* El **Área de Edición Principal**: El lienzo donde escribes tu texto.
+
+* **Navegar entre estas áreas:**
+    * **Ir a la Barra de Menús:** Presiona `Alt` + `f` para abrir el menú Archivo, `Alt` + `e` para el menú Editar, y así sucesivamente.
+    * **Volver al Área de Edición:** Simplemente presiona `Escape`.
+    * **Cambiar el Título del Documento:** Presiona `Alt` + `f` y luego `r`.
+
+### 3. Escribir y dar formato al texto
 * **Aplicar negrita:** Selecciona el texto (usando `Shift` + `flechas`) y presiona `Ctrl` + `b`.
 * **Aplicar cursiva:** Selecciona el texto y presiona `Ctrl` + `i`.
 * **Subrayar:** Selecciona el texto y presiona `Ctrl` + `u`.
 
-### 3. Navegar por el documento
+### 4. Escribir con la Voz (Dictado por Voz)
+Esta función te permite dictar texto directamente en el documento.
+* **Método con NVDA:**
+    1. Presiona `Alt` + `H` para abrir el menú "Herramientas".
+    2. Baja con las flechas hasta que escuches "Dictado por voz" y presiona `Enter`.
+* **Atajo Rápido de Google:** Presiona `Ctrl` + `Shift` + `S`.
+
+Aparecerá un panel con un micrófono. La primera vez, el navegador te pedirá permiso para usarlo.
+1. Para empezar a dictar, activa el botón del micrófono.
+2. Habla con claridad. Puedes decir "punto", "coma", o "nuevo párrafo".
+3. Para detener el dictado, vuelve a presionar `Ctrl` + `Shift` + `S`.
+
+### 5. Navegar por el documento
 * **Método con NVDA:**
     * Para ir al siguiente encabezado: `H`
     * Para ir al siguiente enlace: `K`
@@ -36,32 +59,49 @@ Una vez en el documento, puedes empezar a escribir directamente.
     * **Moverse al siguiente encabezado:** Mantén presionadas `Ctrl` + `Alt`, luego presiona `n` y después `h`.
     * **Moverse al siguiente error ortográfico:** `Ctrl` + `'` (apóstrofo).
 
-### 4. Usar el corrector ortográfico
-* **Método con NVDA:** Ve al menú "Herramientas" (`Alt` + `h`), baja hasta "Ortografía y gramática" y elige "Revisión ortográfica y gramatical" (`Ctrl` + `Alt` + `x`). Se abrirá un panel donde puedes usar `Tab` para moverte entre las opciones.
+#### Buscar en menús
+1.  Presiona `Alt` + `barra` (Windows y ChromeOS) u `Opción` + `barra` (Mac).
+2.  Escribe un comando, como `Rename` o `Insert`.
+3.  Presiona la flecha hacia abajo para escuchar los resultados de la búsqueda.
+4.  Para elegir una acción, presiona `Intro`.
+
+### 6. Usar el corrector ortográfico
+* **Método con NVDA:** Ve al menú "Herramientas" (`Alt` + `h`), baja hasta "Ortografía y gramática" y elige "Revisión ortográfica y gramatical" (`Ctrl` + `Alt` + `x`).
 * **Atajo Rápido de Google:** Presiona `Ctrl` + `Alt` + `x` para iniciar la revisión.
 
-### 5. Insertar y gestionar comentarios
-Los comentarios son útiles для hacer anotaciones o pedir opiniones.
-* **Insertar un comentario:** Selecciona el texto sobre el que quieres comentar.
-    * **Método con NVDA:** Ve al menú "Insertar" (`Alt` + `i`) y elige "Comentario".
-    * **Atajo Rápido de Google:** Presiona `Ctrl` + `Alt` + `m`.
+### 7. Compartir tu Documento
+* Abre el menú Archivo (`Alt` + `f`), navega hasta "Compartir" y selecciona "Compartir con otros".
+* En el diálogo, añade correos, asigna un rol (Editor, Comentador, Lector) y envía.
+
+### 8. Descargar el documento a la PC
+Puedes guardar una copia de tu documento en formatos como Microsoft Word (.docx) o PDF.
+1.  Abre el menú **Archivo** (`Alt` + `f`).
+2.  Baja con la flecha hasta la opción **"Descargar"**.
+3.  Se abrirá un submenú. Usa las flechas para navegar a tu formato deseado.
+4.  Presiona `Enter` y el archivo comenzará a descargarse.
+
+### 9. Insertar y gestionar comentarios
+* **Insertar un comentario:** Selecciona el texto y presiona `Ctrl` + `Alt` + `m`.
 * **Navegar por los comentarios:**
     * **Para abrir el historial de comentarios:** `Ctrl` + `Alt` + `Shift` + `a`.
     * **Para ir al siguiente comentario:** Mantén presionadas `Ctrl` + `Alt`, luego presiona `n` y después `c`.
 
----
-### Tabla de Comandos de Documentos de Google
+### 10. Tablas
+#### Cómo agregar una tabla
+1.  Abre el menú **Insertar**.
+2.  Selecciona **Tabla**.
+3.  Usa las teclas de flecha para elegir el tamaño y presiona `Enter`.
 
-| Tarea | Atajo Rápido de Google | Comando NVDA (Alternativo) |
-|---|---|---|
-| **Crear documento nuevo** | Desde Drive: `Shift` + `t` | Botón "Nuevo" > "Documentos de Google". |
-| **Negrita** | `Ctrl` + `b` | Menú "Formato" > "Texto" > "Negrita". |
-| **Cursiva** | `Ctrl` + `i` | Menú "Formato" > "Texto" > "Cursiva". |
-| **Subrayado** | `Ctrl` + `u` | Menú "Formato" > "Texto" > "Subrayado". |
-| **Corrector ortográfico** | `Ctrl` + `Alt` + `x` | Menú "Herramientas" > "Ortografía y gramática". |
-| **Insertar comentario** | `Ctrl` + `Alt` + `m` | Menú "Insertar" > "Comentario". |
-| **Ir al siguiente comentario** | `(Ctrl+Alt)`+`n` luego `c` | Abrir historial de comentarios y navegarlo. |
-| **Guardar** | No es necesario, ¡se guarda automáticamente! | N/A |
+#### Cómo modificar una tabla existente
+1.  Mueve el enfoque a una celda de la tabla.
+2.  Presiona `Mayúsculas` + `F10` para abrir el menú contextual.
+3.  Selecciona una de las opciones (Insertar, Eliminar, Combinar celdas, etc.).
+    * **Nota:** Para deshacer una combinación, presiona `Ctrl` + `z`.
+
+#### Cómo cambiar las propiedades de la tabla
+1.  Mueve el enfoque a la fila o columna deseada.
+2.  Abre el menú **Formato** > **Tabla** > **Propiedades de la tabla**.
+3.  En la barra lateral, usa `Tab` para moverte y ajustar la configuración.
 
 ---
 ### Ejercicio Práctico Módulo 3
@@ -74,4 +114,4 @@ Los comentarios son útiles для hacer anotaciones o pedir opiniones.
 6.  Selecciona una frase y añade un comentario que diga: "Esta parte me gusta mucho".
 
 ---
-**Fuente:** {Documentos de Google-soporte de Google}(https://support.google.com/docs/answer/6239410?sjid=10709906629674077768-SA)
+**Fuente:** [Documentos de Google-soporte de Google](https://support.google.com/docs/answer/1632201?hl=es)
