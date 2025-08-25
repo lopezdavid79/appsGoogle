@@ -23,6 +23,21 @@
       .modal-body .ratio {
         height: 70vh; /* Adjust video height */
       }
+      /* Style for keyboard keys */
+      kbd {
+        background-color: #eee;
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+        color: #333;
+        display: inline-block;
+        font-family: monospace;
+        font-size: .85em;
+        font-weight: 700;
+        line-height: 1;
+        padding: 2px 4px;
+        white-space: nowrap;
+      }
     </style>
 </head>
 <body>
@@ -44,6 +59,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#modulos">Módulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#atajos">Atajos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
@@ -68,7 +86,7 @@
         <section id="horarios" class="container text-center bg-light rounded-3">
             <h2 class="fw-bold">Días y Horarios</h2>
             <p class="fs-5">Días: Martes y Jueves. Horario: 18:00 a 20:00 hs (Argentina).</p>
-            <a href="https://us06web.zoom.us/j/88286102210?pwd=8jlLBBEb7JI9yOH9ZhQdYYIjvrFCX9.1" class="btn btn-primary btn-lg mt-3" role="button" aria-label="Acceder a la clase en vivo a través de Zoom">
+            <a href="https://us02web.zoom.us/j/82610406772?pwd=ovXdhGEwDMsrVogs2ncgUk3s2omao8.1" class="btn btn-primary btn-lg mt-3" role="button" aria-label="Acceder a la clase en vivo a través de Zoom">
                 Acceder a la clase en Zoom
             </a>
         </section>
@@ -91,7 +109,7 @@
                     <div class="card h-100 text-center shadow-sm">
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 2: Google Drive</h3>
-                            <a href="modulos/modulo2_drive.md" target="_blank"  class="btn btn-outline-secondary m-1 disabled" role="button" aria-label="Ver apuntes del Módulo 2: Google Drive">Ver Apuntes</a>
+                            <a href="#" target="_blank"  class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 2: Google Drive">Ver Apuntes</a>
                             <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo2">Ver Clase Grabada</button>
                         </div>
                     </div>
@@ -100,8 +118,8 @@
                     <div class="card h-100 text-center shadow-sm">
                         <div class="card-body">
                             <h3 class="card-title h4">Módulo 3: Documentos de Google</h3>
-                            <a href="modulos/modulo3_Documentos.md" class="btn btn-outline-secondary m-1 disabled" role="button" aria-label="Ver apuntes del Módulo 3: Documentos de Google">Ver Apuntes</a>
-                             <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo3" disabled>Ver Clase Grabada</button>
+                            <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 3: Documentos de Google">Ver Apuntes</a>
+                             <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo3">Ver Clase Grabada</button>
                         </div>
                     </div>
                 </div>
@@ -130,6 +148,60 @@
                             <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 6: Google Calendario">Ver Apuntes</a>
                             <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo6" disabled>Ver Clase Grabada</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="atajos" class="container">
+            <h2 class="text-center mb-4 fw-bold">Atajos de Teclado para el Reproductor</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Tecla</th>
+                                    <th>Acción</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><kbd>Espacio</kbd> o <kbd>K</kbd></td>
+                                    <td>Reproducir / Pausar el video.</td>
+                                </tr>
+                                <tr>
+                                    <td><kbd>M</kbd></td>
+                                    <td>Silenciar / Activar el sonido.</td>
+                                </tr>
+                                <tr>
+                                    <td><kbd>←</kbd> / <kbd>→</kbd></td>
+                                    <td>Retroceder / Avanzar 5 segundos.</td>
+                                </tr>
+                                <tr>
+                                    <td><kbd>J</kbd> / <kbd>L</kbd></td>
+                                    <td>Retroceder / Avanzar 10 segundos.</td>
+                                </tr>
+                                <tr>
+                                    <td><kbd>↑</kbd> / <kbd>↓</kbd></td>
+                                    <td>Subir / Bajar el volumen.</td>
+                                </tr>
+                                <tr>
+                                    <td><kbd>F</kbd></td>
+                                    <td>Activar / Desactivar la pantalla completa.</td>
+                                </tr>
+                                <tr>
+                                    <td><kbd>C</kbd></td>
+                                    <td>Mostrar / Ocultar los subtítulos (si están disponibles).</td>
+                                </tr>
+                                <tr>
+                                    <td>Teclas <kbd>0</kbd> a <kbd>9</kbd></td>
+                                    <td>Saltar a un punto específico del video (del 0% al 90%).</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -186,7 +258,7 @@
       </div>
     </div>
 
-    <div class="modal fade" id="modalModulo3" tabindex="-1" aria-labelledby="modalModulo3Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo3Label">Clase Grabada: Módulo 3 - Documentos de Google</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/L42h_yA29A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
+    <div class="modal fade" id="modalModulo3" tabindex="-1" aria-labelledby="modalModulo3Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo3Label">Clase Grabada: Módulo 3 - Documentos de Google</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://drive.google.com/file/d/1nf3Br0s7Khmx5hnEbErTB7AkOyLVRwlc/preview" allow="autoplay"></iframe></div></div></div></div></div>
     <div class="modal fade" id="modalModulo4" tabindex="-1" aria-labelledby="modalModulo4Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo4Label">Clase Grabada: Módulo 4 - Hojas de Cálculo</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/kG23D2-z3_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
     <div class="modal fade" id="modalModulo5" tabindex="-1" aria-labelledby="modalModulo5Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo5Label">Clase Grabada: Módulo 5 - Formularios</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/5sW2AbYv_lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
     <div class="modal fade" id="modalModulo6" tabindex="-1" aria-labelledby="modalModulo6Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo6Label">Clase Grabada: Módulo 6 - Google Calendario</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/n32jA3u2a-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>

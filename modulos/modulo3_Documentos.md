@@ -45,11 +45,6 @@ Esta función te permite dictar texto directamente en el documento.
     2. Baja con las flechas hasta que escuches "Dictado por voz" y presiona `Enter`.
 * **Atajo Rápido de Google:** Presiona `Ctrl` + `Shift` + `S`.
 
-Aparecerá un panel con un micrófono. La primera vez, el navegador te pedirá permiso para usarlo.
-1. Para empezar a dictar, activa el botón del micrófono.
-2. Habla con claridad. Puedes decir "punto", "coma", o "nuevo párrafo".
-3. Para detener el dictado, vuelve a presionar `Ctrl` + `Shift` + `S`.
-
 ### 5. Navegar por el documento
 * **Método con NVDA:**
     * Para ir al siguiente encabezado: `H`
@@ -59,12 +54,6 @@ Aparecerá un panel con un micrófono. La primera vez, el navegador te pedirá p
     * **Moverse al siguiente encabezado:** Mantén presionadas `Ctrl` + `Alt`, luego presiona `n` y después `h`.
     * **Moverse al siguiente error ortográfico:** `Ctrl` + `'` (apóstrofo).
 
-#### Buscar en menús
-1.  Presiona `Alt` + `barra` (Windows y ChromeOS) u `Opción` + `barra` (Mac).
-2.  Escribe un comando, como `Rename` o `Insert`.
-3.  Presiona la flecha hacia abajo para escuchar los resultados de la búsqueda.
-4.  Para elegir una acción, presiona `Intro`.
-
 ### 6. Usar el corrector ortográfico
 * **Método con NVDA:** Ve al menú "Herramientas" (`Alt` + `h`), baja hasta "Ortografía y gramática" y elige "Revisión ortográfica y gramatical" (`Ctrl` + `Alt` + `x`).
 * **Atajo Rápido de Google:** Presiona `Ctrl` + `Alt` + `x` para iniciar la revisión.
@@ -73,20 +62,25 @@ Aparecerá un panel con un micrófono. La primera vez, el navegador te pedirá p
 * Abre el menú Archivo (`Alt` + `f`), navega hasta "Compartir" y selecciona "Compartir con otros".
 * En el diálogo, añade correos, asigna un rol (Editor, Comentador, Lector) y envía.
 
-### 8. Descargar el documento a la PC
-Puedes guardar una copia de tu documento en formatos como Microsoft Word (.docx) o PDF.
+### 8. Trabajando de Forma Colaborativa: Comentarios y Sugerencias
+* **Añadir un Comentario:** Selecciona texto y presiona `Control` + `Alt` + `M`.
+* **Navegar entre Comentarios:** `Control` + `Alt` + `N` y luego `C` (siguiente); `Control` + `Alt` + `P` y luego `C` (anterior).
+
+### 9. Colaboración en Vivo: Trabajando Juntos en Tiempo Real
+* **Saber Quién Está en el Documento:**
+    * Presiona `Alt` + `Shift` + `G` para obtener una lista de los colaboradores activos.
+* **Encontrar la Ubicación de un Colaborador:**
+    1. Presiona `Alt` + `Shift` + `G` para abrir la lista de colaboradores.
+    2. Usa las flechas para moverte por la lista de nombres.
+    3. Presiona `Enter` sobre el nombre de la persona y tu cursor saltará a su ubicación.
+
+### 10. Descargar el documento a la PC
 1.  Abre el menú **Archivo** (`Alt` + `f`).
 2.  Baja con la flecha hasta la opción **"Descargar"**.
 3.  Se abrirá un submenú. Usa las flechas para navegar a tu formato deseado.
 4.  Presiona `Enter` y el archivo comenzará a descargarse.
 
-### 9. Insertar y gestionar comentarios
-* **Insertar un comentario:** Selecciona el texto y presiona `Ctrl` + `Alt` + `m`.
-* **Navegar por los comentarios:**
-    * **Para abrir el historial de comentarios:** `Ctrl` + `Alt` + `Shift` + `a`.
-    * **Para ir al siguiente comentario:** Mantén presionadas `Ctrl` + `Alt`, luego presiona `n` y después `c`.
-
-### 10. Tablas
+### 11. Tablas
 #### Cómo agregar una tabla
 1.  Abre el menú **Insertar**.
 2.  Selecciona **Tabla**.
@@ -102,6 +96,30 @@ Puedes guardar una copia de tu documento en formatos como Microsoft Word (.docx)
 1.  Mueve el enfoque a la fila o columna deseada.
 2.  Abre el menú **Formato** > **Tabla** > **Propiedades de la tabla**.
 3.  En la barra lateral, usa `Tab` para moverte y ajustar la configuración.
+
+### 12. Crear un Índice Automático (Tabla de Contenidos)
+* **Insertar el Índice:**
+    1. Ve al menú "Insertar" con `Alt` + `i`.
+    2. Baja con la flecha hasta "Índice".
+    3. Elige un formato y pulsa `Enter`.
+* **Actualizar el Índice:**
+    1. Mueve el cursor dentro del área del índice.
+    2. Busca y activa el botón "Actualizar índice".
+
+### 13. Trabajar con el Historial de Versiones
+* **Acceder al Historial de Versiones:**
+    * **Atajo Rápido:** Presiona `Ctrl` + `Alt` + `Mayús` + `h`.
+* **Navegar por el Historial:**
+    * Usa `Tab` para moverte a la lista de versiones y las flechas para seleccionar una.
+* **Restaurar una versión anterior:**
+    1. Selecciona la versión que quieres restaurar.
+    2. Navega hasta el botón "Restaurar esta versión" y pulsa `Enter`.
+
+### 14. Usar Firmas Electrónicas (Función Premium)
+* **Iniciar una solicitud de firma:**
+    1. Ve al menú "Herramientas" (`Alt` + `t`).
+    2. Busca la opción "Firmas electrónicas" y pulsa `Enter`.
+    3. Usa `Tab` en el panel que aparece para insertar los campos de firma y solicitarla.
 
 ---
 ### Ejercicio Práctico Módulo 3
