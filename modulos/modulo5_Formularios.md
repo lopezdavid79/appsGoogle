@@ -1,16 +1,6 @@
-# Módulo 4: Hojas de Cálculo de Google - Organiza y Analiza tus Datos
+# Módulo 5: Formularios de Google - Crea Encuestas y Cuestionarios Accesibles
 
-¡Hola! Bienvenido al módulo sobre Hojas de Cálculo de Google. No te asustes por las cuadrículas; esta es una herramienta increíblemente poderosa para organizar información, crear presupuestos, llevar listas, analizar datos y mucho más. Piénsalo como un archivador digital inteligente que puede hacer cálculos por ti.
-
----
-
-## ¡Muy Importante! Antes de Empezar
-
-Para que Hojas de Cálculo funcione de la mejor manera con NVDA, necesitas activar una opción.
-
-1.  Presiona `Alt` + `h` para ir al menú "Herramientas".
-2.  Baja con la flecha hasta "Configuración de accesibilidad" y presiona `Enter`.
-3.  Asegúrate de que la casilla "Activar compatibilidad con lectores de pantalla" esté marcada. Si no lo está, presiona la barra espaciadora para marcarla y luego tabula hasta el botón "Aceptar" y presiona `Enter`.
+¡Bienvenido al módulo de Formularios de Google! Esta es una de las herramientas más versátiles y poderosas del ecosistema de Google. Los formularios son ideales para crear encuestas, exámenes, formularios de inscripción o simplemente para recoger información de manera ordenada. Con un lector de pantalla, son increíblemente eficientes tanto para crear como para responder.
 
 ---
 
@@ -18,96 +8,100 @@ Para que Hojas de Cálculo funcione de la mejor manera con NVDA, necesitas activ
 
 Al finalizar este módulo, serás capaz de:
 
-* Navegar y seleccionar celdas, filas y columnas con total fluidez.
-* Introducir, editar y dar formato básico a los datos (negrita, moneda).
-* Verificar el formato y la ubicación de tus celdas usando las herramientas de verbalización.
-* Crear fórmulas sencillas y útiles como `SUMA`, `PROMEDIO` y `CONTAR`.
-* Buscar y reemplazar información dentro de tu hoja.
-* Ordenar datos para encontrarlos más fácilmente.
-* Gestionar las diferentes hojas de un libro de cálculo de forma eficiente.
-* Compartir tus hojas de cálculo y añadir comentarios para trabajar en equipo.
+* Navegar con fluidez por la interfaz de creación de Formularios.
+* Crear un formulario básico con diferentes tipos de preguntas.
+* Revisar el formulario usando la vista previa.
+* Enviar el formulario a otras personas.
+* Revisar las respuestas recibidas.
+* Convertir un formulario en un cuestionario autocorregible.
 
 ---
 
-## Guía Paso a Paso para Hojas de Cálculo
+## Guía paso a paso para Formularios de Google
 
-### 1. Crear una Nueva Hoja de Cálculo
+### 1. Crear un Nuevo Formulario
+
+Empecemos por lo básico: abrir un lienzo en blanco para tu proyecto.
 
 * **Desde Google Drive:**
-    * **Método con NVDA:** En la página principal de Drive, presiona la tecla `B` hasta que escuches "Botón Nuevo". Presiona `Enter`, baja con la flecha hasta "Hojas de cálculo de Google" y presiona `Enter`.
-    * **Atajo Rápido de Google:** En Drive, presiona `Alt`+`c` y luego  `s`.
-* **Atajo Directo en el Navegador:**
-    * Escribe `sheet.new` en la barra de direcciones de Chrome y presiona `Enter`. Es la forma más rápida de empezar desde cero.
+    * **Método con NVDA:** Una vez en la lista de archivos de Google Drive, presiona la tecla `B` hasta que NVDA anuncie "Botón Nuevo". Pulsa `Enter`, luego baja con la flecha hasta "Formularios de Google" y pulsa `Enter` de nuevo.
+    * **Atajo Rápido de Google:** La forma más directa y universal es pulsar `Alt+c` y luego `o`.
 
-### 2. Navegación Esencial por la Cuadrícula
+### 2. Navegación Básica por la Interfaz
 
-* **Moverse entre celdas:** Utiliza las flechas de dirección. NVDA te leerá la coordenada (ej: "A1") y su contenido.
-* **Seleccionar una columna completa:** Ubícate en cualquier celda de la columna y presiona `Ctrl` + `espacio`.
-* **Seleccionar una fila completa:** Ubícate en cualquier celda de la fila y presiona `Mayús` + `espacio`.
-* **Ir al inicio de la hoja (celda A1):** Presiona `Ctrl` + `Inicio`.
-* **Ir a la última celda con datos:** Presiona `Ctrl` + `Fin`.
+Antes de añadir contenido, familiarízate con las zonas de trabajo. La interfaz se divide en tres áreas principales:
 
-### 3. Introducir y Editar Datos
+* **Pestañas Principales:** En la parte superior encontrarás las pestañas "Preguntas", "Respuestas" y "Configuración".
+    * **Método con NVDA:** Puedes usar la tecla `Tab` para moverte entre ellas y pulsar `Enter` para activarlas.
+    * **Atajo Rápido de Google:** Usa `Ctrl + e` para ir a la pestaña "Configuración", saltar con `Tab` a "Respuestas" y “Preguntas”.
+* **Área de Contenido:** Es la zona central donde editas tus preguntas o ves las respuestas.
+* **Barra de Herramientas:** Una barra de botones que te permite añadir elementos.
+    * **Método con NVDA:** Presiona la tecla `B` para moverte por sus botones, como "Añadir pregunta", "Importar preguntas", etc.
 
-* **Introducir datos:** Navega a una celda vacía y empieza a escribir. Presiona `Enter` para confirmar y moverte hacia abajo.
-* **Editar datos de una celda:** Navega hasta la celda que quieres modificar y presiona `F2`. El cursor se activará dentro de la celda. Presiona `Enter` para guardar los cambios.
+### 3. Añadir Título y Descripción
 
-### 4. Dando Formato a tus Celdas
+* Escribe un nombre claro, por ejemplo: "Inscripción al Taller de Oratoria".
+* Presiona `Tab` para moverte al campo "Descripción del formulario". Aquí puedes añadir instrucciones adicionales.
 
-* **Poner texto en negrita:** Selecciona la celda y presiona `Ctrl` + `b`.
-* **Formatear números como moneda:** Selecciona las celdas y presiona `Ctrl` + `Mayús` + `4`.
+### 4. Añadir y Configurar Preguntas
 
-### 5. Cómo Usar el Menú Verbalización del Lector de Pantalla
+1.  **Añadir la primera pregunta:** Tras la descripción, presiona `Tab` para situarte en la primera pregunta sin título y escribe el texto.
+2.  **Elegir el tipo de pregunta:** Por defecto, es "Opción múltiple".
+    * **Método con NVDA:** Presiona `Tab` hasta que NVDA anuncie el tipo de pregunta actual y pulsa `Enter` para abrir el menú. Usa las flechas para elegir y pulsa `Enter`.
 
-Usa este menú para obtener información sobre el formato y la ubicación de la celda activa.
+#### Tipos de preguntas más comunes:
+* **Respuesta corta:** Para nombres, correos, etc.
+* **Párrafo:** Para respuestas largas y detalladas.
+* **Opción múltiple:** Permite elegir una sola respuesta de una lista.
+* **Casillas de verificación:** Permite seleccionar varias respuestas.
+* **Lista desplegable:** Útil para muchas opciones, mantiene el formulario limpio.
+* **Escala lineal:** Para calificar algo en una escala (ej: del 1 al 5).
 
-1.  Abre el menú de accesibilidad presionando `Alt` + `a`.
-2.  Selecciona `Verbalización del lector de pantalla` y presiona `Enter` o flecha derecha.
-3.  Desplázate por las opciones con la flecha hacia abajo y presiona `Enter` para seleccionar una.
-    * **Verbalizar la fila** (desde la primera columna hasta tu columna actual): Presiona `Ctrl` + `Alt` + `Mayús` + `r`.
-    * **Verbalizar la columna** (desde la primera fila hasta tu fila actual): Presiona `Ctrl` + `Alt` + `Mayús` + `c`.
+3.  **Hacer una pregunta obligatoria:**
+    * **Método con NVDA:** Presiona `Tab` hasta escuchar "Interruptor de palanca no pulsado, Obligatorio". Presiona la `Barra espaciadora` para activarlo.
+4.  **Añadir más preguntas:**
+    * **Método con NVDA:** Presiona la tecla `B` hasta que escuches "Botón Añadir pregunta" y pulsa `Enter`.
+    * **Atajo Rápido de Google:** Tabula una vez para salir del cuadro de edición y presiona `Ctrl + Shift + Enter`.
+5.  **Desplazarse y gestionar preguntas:**
+    * **Método con NVDA:** Presiona `H` para saltar a la siguiente pregunta o `Shift + H` para la anterior.
+    * **Atajo Rápido de Google:** Usa `J` para ir a la pregunta siguiente y `K` para la anterior.
 
-### 6. Fórmulas: El Poder de Calcular
+| Acción | Atajo |
+| :--- | :--- |
+| Subir el elemento | `Ctrl+Mayús+K` |
+| Bajar el elemento | `Ctrl + Mayús +J` |
+| Duplicar elemento | `Ctrl+ Mayús +D` |
+| Borrar elemento | `Alt+ Mayús +D` |
 
-Las fórmulas siempre empiezan con el signo igual (`=`).
+### 5. Ver la Vista Previa de tu Formulario
 
-* **Fórmula de Suma (`=SUMA(...)`):** Para sumar un rango de celdas, como de A1 a A3, escribe: `=SUMA(A1:A3)` y presiona `Enter`.
-* **Fórmula de Promedio (`=PROMEDIO(...)`):** Para calcular el promedio de un rango, escribe: `=PROMEDIO(A1:A3)`.
+Es fundamental revisar cómo verán tu formulario los demás.
 
-### 7. Ordenar Datos
+* **Método con NVDA:** Presiona la tecla `K` hasta que encuentres el enlace "Vista previa" y pulsa `Enter`.
+* **Atajo Rápido de Google:** Pulsa `Ctrl + Mayús + P`. Se abrirá una nueva pestaña. Ciérrala con `Ctrl + W` para volver a la edición.
 
-* **Método con NVDA / Recomendado:**
-    1.  Selecciona el rango de datos que quieres ordenar.
-    2.  Presiona `Alt` + `d` para abrir el menú "Datos".
-    3.  Baja con la flecha hasta "Ordenar intervalo" y presiona `Enter`.
-    4.  Usa el cuadro de diálogo para configurar la ordenación.
+### 6. Configurar y Enviar tu Formulario
 
-### 8. Buscar y Reemplazar Datos
+1.  **Acceder al diálogo de envío:**
+    * **Método con NVDA:** Presiona la tecla `B` hasta llegar al botón "Enviar" y pulsa `Enter`.
+    * **Atajo Rápido de Google:** Pulsa `Ctrl + Enter`.
+2.  **Obtener el enlace:**
+    * Dentro del diálogo, presiona `Tab` hasta la "Pestaña Enlace" y pulsa `Enter`.
+    * Te recomiendo tabular hasta la casilla "Acortar URL" y marcarla con la `Barra espaciadora` para un enlace más corto.
 
-* **Atajo Rápido de Google (Recomendado):**
-    1.  Presiona `Ctrl` + `h`.
-    2.  Escribe el texto a buscar, presiona `Tab`, escribe el texto de reemplazo y sigue tabulando para acceder a los botones "Reemplazar" o "Reemplazar todo".
+### 7. Revisar las Respuestas
 
-### 9. Gestionar las Hojas del Libro de Cálculo 
+Ve a la pestaña **"Respuestas"**.
 
-Un solo archivo puede contener múltiples hojas. Aquí aprenderás a controlarlas de forma profesional.
+* **La forma más accesible: Vincular a una Hoja de Cálculo:**
+    * En la pestaña "Respuestas", presiona la tecla `B` hasta que escuches "Botón Crear hoja de cálculo" y pulsa `Enter`.
+    * Esto creará una hoja de cálculo en tu Drive con todas las respuestas organizadas.
 
-* **Moverse entre Hojas:**
-    * **Atajos Rápidos de Google (Recomendado):** Estos atajos funcionan desde cualquier parte de la hoja.
-        * **Ir a la hoja siguiente:** `Alt` + `flecha   abajo`.
-        * **Ir a la hoja anterior:** `Alt` + `flecha  arriba`.
-    * **Ver la lista de todas las hojas:**
-        * Presiona `Alt` + `Mayús` + `k`. Se abrirá un menú con todas tus hojas. Navega con las flechas y presiona `Enter` para ir a la que elijas.
-* **Usar el Menú de la Hoja (Acciones Rápidas):**
-    * **Método con NVDA / Recomendado:**
-        1.  Presiona `Alt` + `Mayús` + `s`. NVDA anunciará "Menú de la hoja, menú".
-        2.  Usa la flecha hacia abajo para navegar por las opciones: "Eliminar", "Duplicar", "Copiar en", "Cambiar nombre", etc.
-        3.  Presiona `Enter` en la acción que deseas realizar.
+### 8. ¡A Examen! Convierte tu Formulario en un Cuestionario
 
-### 10. Compartir y Añadir Comentarios
-
-* **Compartir tu Hoja de Cálculo:**
-    1.  Presiona la tecla `B` hasta que NVDA anuncie "Botón Compartir" y presiona `Enter`.
-    2.  Se abrirá un diálogo para añadir correos y asignar permisos.
-* **Añadir un comentario a una celda:**
-    * Selecciona la celda y presiona `Ctrl` + `Alt` + `m`. Escribe tu comentario y tabula hasta el botón "Comentar".
+1.  **Activar el modo Cuestionario:** Ve a la pestaña "Configuración" (`Ctrl + e`) y presiona `Tab` hasta "Interruptor de palanca no pulsado, Convertir en cuestionario...". Púlsalo con la `Barra espaciadora`.
+2.  **Asignar Puntos y Respuestas Correctas:**
+    * Regresa a la pestaña "Preguntas".
+    * Selecciona una pregunta y presiona `Tab` hasta el botón "Clave de respuestas". Pulsa `Enter`.
+    * Escribe los puntos, luego usa `Tab` para navegar a las opciones y marca la correcta con la `Barra espaciadora`.
+    * Cuando termines, pulsa `Tab` hasta el botón "Hecho" y dale a `Enter`.
