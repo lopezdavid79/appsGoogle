@@ -7,38 +7,8 @@
     <meta name="description" content="Repositorio oficial del Curso de Aplicaciones de Google, ofrecido por el Programa Ágora Argentina. Accede a horarios, apuntes y clases grabadas.">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <style>
-      body {
-        padding-top: 56px; /* Altura de la barra de navegación */
-      }
-      section {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-      }
-      /* Ensure the modal is above everything */
-      .modal {
-        z-index: 1055;
-      }
-      .modal-body .ratio {
-        height: 70vh; /* Adjust video height */
-      }
-      /* Style for keyboard keys */
-      kbd {
-        background-color: #eee;
-        border-radius: 3px;
-        border: 1px solid #b4b4b4;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-        color: #333;
-        display: inline-block;
-        font-family: monospace;
-        font-size: .85em;
-        font-weight: 700;
-        line-height: 1;
-        padding: 2px 4px;
-        white-space: nowrap;
-      }
-    </style>
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -51,21 +21,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#inicio">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#horarios">Horarios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#modulos">Módulos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#atajos">Atajos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#horarios">Horarios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#modulos">Módulos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#atajos">Atajos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -98,55 +58,83 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 text-center shadow-sm">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column justify-content-center">
                             <h3 class="card-title h4">Módulo 1: Gmail</h3>
-                            <a href="modulos//modulo1_gmail.md" class="btn btn-outline-secondary m-1" role="button"  aria-label="Ver apuntes del Módulo 1: Gmail" target="_blank">Ver Apuntes</a>
-                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo1">Ver Clase Grabada</button>
+                            <div class="mt-2">
+                                <a href="modulos/modulo1_gmail.md" class="btn btn-outline-secondary m-1" role="button" aria-label="Ver apuntes del Módulo 1: Gmail" target="_blank">Ver Apuntes</a>
+                                <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo1">Ver Clase Grabada</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 text-center shadow-sm">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column justify-content-center">
                             <h3 class="card-title h4">Módulo 2: Google Drive</h3>
-                            <a href="modulos/modulo2_drive.md" target="_blank"  class="btn btn-outline-secondary m-1 disabled" role="button" aria-label="Ver apuntes del Módulo 2: Google Drive">Ver Apuntes</a>
-                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo2">Ver Clase Grabada</button>
+                            <div class="mt-2">
+                                <a href="modulos/modulo2_drive.md" target="_blank" class="btn btn-outline-secondary m-1" role="button" aria-label="Ver apuntes del Módulo 2: Google Drive">Ver Apuntes</a>
+                                <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo2">Ver Clase Grabada</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 text-center shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title h4">Módulo 3: Documentos de Google</h3>
-                            <a href="modulos/modulo3_Documentos.md" class="btn btn-outline-secondary m-1 disabled" role="button"  aria-label="Ver apuntes del Módulo 3: Documentos de Google">Ver Apuntes</a>
-                             <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo3">Ver Clase Grabada</button>
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h3 class="card-title h4">Módulo 3: Documentos</h3>
+                            <div class="mt-2">
+                                <a href="modulos/modulo3_Documentos.md" class="btn btn-outline-secondary m-1" role="button" aria-label="Ver apuntes del Módulo 3: Documentos de Google">Ver Apuntes</a>
+                                <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo3">Ver Clase Grabada</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 text-center shadow-sm">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column justify-content-center">
                             <h3 class="card-title h4">Módulo 4: Hojas de Cálculo</h3>
-                            <a href="modulos/modulo4_HojasDeCalculo.md" class="btn btn-outline-secondary m-1 disabled" role="button" " aria-label="Ver apuntes del Módulo 4: Hojas de Cálculo">Ver Apuntes</a>
-                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo4" >Ver Clase Grabada</button>
+                            <div class="mt-2">
+                                <a href="modulos/modulo4_HojasDeCalculo.md" class="btn btn-outline-secondary m-1" role="button" aria-label="Ver apuntes del Módulo 4: Hojas de Cálculo">Ver Apuntes</a>
+                                <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo4">Ver Clase Grabada</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 text-center shadow-sm">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column justify-content-center">
                             <h3 class="card-title h4">Módulo 5: Formularios</h3>
-                            <a href="modulos/modulo5_Formularios.md" class="btn btn-outline-secondary m-1 disabled" role="button"  aria-label="Ver apuntes del Módulo 5: Formularios">Ver Apuntes</a>
-                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo5" >Ver Clase Grabada</button>
+                            <div class="mt-2">
+                                <div class="btn-group m-1">
+                                    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Ver Apuntes
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="modulos/modulo5_Formularios1.md" target="_blank">Apuntes (Parte 1)</a></li>
+                                        <li><a class="dropdown-item" href="modulos/modulo5_Formularios2.md" target="_blank">Apuntes (Parte 2)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-group m-1">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Ver Clase Grabada
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#modalModulo5Parte1">Clase (Parte 1)</button></li>
+                                        <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#modalModulo5Parte2" disabled>Clase (Parte 2)</button></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 text-center shadow-sm">
-                        <div class="card-body">
-                            <h3 class="card-title h4">Módulo 6: Google Calendario</h3>
-                            <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 6: Google Calendario">Ver Apuntes</a>
-                            <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo6" disabled>Ver Clase Grabada</button>
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h3 class="card-title h4">Módulo 6: Calendario</h3>
+                            <div class="mt-2">
+                                <a href="#" class="btn btn-outline-secondary m-1 disabled" role="button" aria-disabled="true" aria-label="Ver apuntes del Módulo 6: Google Calendario">Ver Apuntes</a>
+                                <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalModulo6">Ver Clase Grabada</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,38 +156,14 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td><kbd>Espacio</kbd> o <kbd>K</kbd></td>
-                                    <td>Reproducir / Pausar el video.</td>
-                                </tr>
-                                <tr>
-                                    <td><kbd>M</kbd></td>
-                                    <td>Silenciar / Activar el sonido.</td>
-                                </tr>
-                                <tr>
-                                    <td><kbd>←</kbd> / <kbd>→</kbd></td>
-                                    <td>Retroceder / Avanzar 5 segundos.</td>
-                                </tr>
-                                <tr>
-                                    <td><kbd>J</kbd> / <kbd>L</kbd></td>
-                                    <td>Retroceder / Avanzar 10 segundos.</td>
-                                </tr>
-                                <tr>
-                                    <td><kbd>↑</kbd> / <kbd>↓</kbd></td>
-                                    <td>Subir / Bajar el volumen.</td>
-                                </tr>
-                                <tr>
-                                    <td><kbd>F</kbd></td>
-                                    <td>Activar / Desactivar la pantalla completa.</td>
-                                </tr>
-                                <tr>
-                                    <td><kbd>C</kbd></td>
-                                    <td>Mostrar / Ocultar los subtítulos (si están disponibles).</td>
-                                </tr>
-                                <tr>
-                                    <td>Teclas <kbd>0</kbd> a <kbd>9</kbd></td>
-                                    <td>Saltar a un punto específico del video (del 0% al 90%).</td>
-                                </tr>
+                                <tr><td><kbd>Espacio</kbd> o <kbd>K</kbd></td><td>Reproducir / Pausar el video.</td></tr>
+                                <tr><td><kbd>M</kbd></td><td>Silenciar / Activar el sonido.</td></tr>
+                                <tr><td><kbd>←</kbd> / <kbd>→</kbd></td><td>Retroceder / Avanzar 5 segundos.</td></tr>
+                                <tr><td><kbd>J</kbd> / <kbd>L</kbd></td><td>Retroceder / Avanzar 10 segundos.</td></tr>
+                                <tr><td><kbd>↑</kbd> / <kbd>↓</kbd></td><td>Subir / Bajar el volumen.</td></tr>
+                                <tr><td><kbd>F</kbd></td><td>Activar / Desactivar la pantalla completa.</td></tr>
+                                <tr><td><kbd>C</kbd></td><td>Mostrar / Ocultar los subtítulos (si están disponibles).</td></tr>
+                                <tr><td>Teclas <kbd>0</kbd> a <kbd>9</kbd></td><td>Saltar a un punto específico del video (del 0% al 90%).</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -215,9 +179,9 @@
                     <h2 class="fw-bold">Contacto</h2>
                     <p class="fs-5">
                         Si tienes alguna consulta, no dudes en escribirnos a los siguientes correos electrónicos:<br>
-                        <p> Docente David López</p>
-                        <a href="mailto:capacitacionesagora.arg@gmail.com">capacitacionesagora.arg@gmail.com</a><br>
-                        <p> Programa Agora</p>
+                        <strong>Docente David López</strong><br>
+                        <a href="mailto:capacitacionesagora.arg@gmail.com">capacitacionesagora.arg@gmail.com</a><br><br>
+                        <strong>Programa Ágora</strong><br>
                         <a href="mailto:agora@padremario.org">agora@padremario.org</a>
                     </p>
                 </div>
@@ -231,7 +195,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="modalModulo1Label">Clase Grabada: Módulo 1 - Gmail</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
           </div>
           <div class="modal-body">
             <div class="ratio ratio-16x9">
@@ -247,7 +211,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="modalModulo2Label">Clase Grabada: Módulo 2 - Google Drive</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
           </div>
           <div class="modal-body">
             <div class="ratio ratio-16x9">
@@ -258,11 +222,85 @@
       </div>
     </div>
 
-    <div class="modal fade" id="modalModulo3" tabindex="-1" aria-labelledby="modalModulo3Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo3Label">Clase Grabada: Módulo 3 - Documentos de Google</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://drive.google.com/file/d/1nf3Br0s7Khmx5hnEbErTB7AkOyLVRwlc/preview" allow="autoplay"></iframe></div></div></div></div></div>
-    <div class="modal fade" id="modalModulo4" tabindex="-1" aria-labelledby="modalModulo4Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo4Label">Clase Grabada: Módulo 4 - Hojas de Cálculo</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://drive.google.com/file/d/1aehdqnbdyFpdtMkwzzotnQ46B4q7gPUU/preview" allow="autoplay"></iframe></div></div></div></div></div>
-    <div class="modal fade" id="modalModulo5" tabindex="-1" aria-labelledby="modalModulo5Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo5Label">Clase Grabada: Módulo 5 - Formularios</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://drive.google.com/file/d/1cW-YSv-TxZLDkutWXBx_g9nIAsj6s_jG/preview" allow="autoplay"></iframe></div></div></div></div></div>
-    <div class="modal fade" id="modalModulo6" tabindex="-1" aria-labelledby="modalModulo6Label" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="modalModulo6Label">Clase Grabada: Módulo 6 - Google Calendario</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/n32jA3u2a-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></div></div>
+    <div class="modal fade" id="modalModulo3" tabindex="-1" aria-labelledby="modalModulo3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalModulo3Label">Clase Grabada: Módulo 3 - Documentos de Google</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://drive.google.com/file/d/1nf3Br0s7Khmx5hnEbErTB7AkOyLVRwlc/preview" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal fade" id="modalModulo4" tabindex="-1" aria-labelledby="modalModulo4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalModulo4Label">Clase Grabada: Módulo 4 - Hojas de Cálculo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://drive.google.com/file/d/1aehdqnbdyFpdtMkwzzotnQ46B4q7gPUU/preview" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalModulo5Parte1" tabindex="-1" aria-labelledby="modalModulo5Parte1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalModulo5Parte1Label">Clase Grabada: Módulo 5 - Formularios (Parte 1)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://drive.google.com/file/d/1cW-YSv-TxZLDkutWXBx_g9nIAsj6s_jG/preview" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalModulo5Parte2" tabindex="-1" aria-labelledby="modalModulo5Parte2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalModulo5Parte2Label">Clase Grabada: Módulo 5 - Formularios (Parte 2)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://drive.google.com/file/d/1cW-YSv-TxZLDkutWXBx_g9nIAsj6s_jG/preview" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalModulo6" tabindex="-1" aria-labelledby="modalModulo6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalModulo6Label">Clase Grabada: Módulo 6 - Google Calendario</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/n32jA3u2a-E" title="Video de YouTube: Clase de Calendario" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark text-white text-center py-3 mt-auto">
         <div class="container">
@@ -271,33 +309,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const videoModals = document.querySelectorAll('.modal');
-            videoModals.forEach(modal => {
-                const iframe = modal.querySelector('iframe');
-                const video = modal.querySelector('video');
-
-                // Logic for YouTube iFrames or Google Drive iFrames
-                if (iframe) {
-                    const originalSrc = iframe.getAttribute('src');
-                    modal.addEventListener('hidden.bs.modal', function () {
-                        iframe.setAttribute('src', ''); // Stop video by clearing src
-                    });
-                    modal.addEventListener('shown.bs.modal', function () {
-                        iframe.setAttribute('src', originalSrc); // Restore src when modal is shown
-                    });
-                }
-
-                // Logic for local <video> tag
-                if (video) {
-                     modal.addEventListener('hidden.bs.modal', function () {
-                        video.pause(); // Pause the video when the modal is hidden
-                    });
-                }
-            });
-        });
-    </script>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
