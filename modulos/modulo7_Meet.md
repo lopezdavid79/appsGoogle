@@ -1,4 +1,4 @@
-# Módulo 8: Google Meet - Conectándote en Tiempo Real
+# Módulo 7: Google Meet - Conectándote en Tiempo Real
 
 Google Meet es la herramienta de Google para realizar videoconferencias. Te permite reunirte con tu equipo, participar en clases online o simplemente conversar con amigos y familiares, todo de forma accesible. Dominar esta herramienta es fundamental para el trabajo remoto y la educación a distancia.
 
