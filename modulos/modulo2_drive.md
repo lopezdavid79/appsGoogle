@@ -19,7 +19,7 @@ Al finalizar este módulo, serás capaz de:
 ### 1. Navegación por la Interfaz: Paneles y Vistas
 
 La clave para dominar Drive es entender su estructura y cómo saltar entre sus partes.
-
+* **Alternar por la interfaz:*** `ctrl + f6`
 * **Alternar entre paneles:**
     * **Panel de Navegación (Izquierda):** Para ir a "Mi unidad", "Compartidos conmigo", etc., presiona `Alt g` luego `n`. Usa las flechas para moverte y `Enter` para seleccionar.
     * **Panel de Archivos (Principal):** Para volver a tu lista de archivos y carpetas, presiona `Alt g` luego `i`.
@@ -30,10 +30,10 @@ La clave para dominar Drive es entender su estructura y cómo saltar entre sus p
 
 Una vez en el panel de archivos (`Alt g` + `i`), gestiona tus elementos así:
 
-* **Mover la selección:** Usa `j` (bajar) y `k` (subir) o las flechas de dirección.
-* **Seleccionar/Deseleccionar un elemento:** Presiona `x` sobre cualquier archivo o carpeta.
-* **Seleccionar un rango:** Mantén `Shift` y presiona `j` o `k` para seleccionar un grupo de archivos consecutivos.
-* **Abrir un elemento:** Presiona `Enter` u `o`.
+* **Mover la selección:** Usa las flechas de dirección.
+* **Seleccionar/Deseleccionar un elemento:** Presiona `shift + espacio` sobre cualquier archivo o carpeta.
+* **Seleccionar un rango:** Mantén `Shift` y presiona `las flechas de direcciones` para seleccionar un grupo de archivos consecutivos.
+* **Abrir un elemento:** Presiona `Enter`.
 
 ### 3. Crear Carpetas y Archivos Nuevos
 
